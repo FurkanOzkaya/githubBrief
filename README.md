@@ -1,4 +1,21 @@
-# gitbrief
+# Gitbrief
+
+Github brief information.
+
+## Docker Installation
+
+```
+docker build -t gitbrief .
+```
+
+```
+docker run -p 8080:80 gitbrief
+```
+or run in background:
+
+```
+docker run  -p 8080:80 -d gitbrief
+```
 
 ## Project setup
 ```

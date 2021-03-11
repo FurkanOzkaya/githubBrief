@@ -76,6 +76,7 @@ export default {
           if (response.status == 200) {
             this.errorCode = 0;
             this.$store.dispatch("updateUsername", this.username);
+            this.$store.dispatch("updateRepoName", "");
             this.$store.dispatch("updateFollowers", username);
             this.$store.dispatch("updateFollowings", username);
             this.$store.dispatch("updateRepsitories", username);
